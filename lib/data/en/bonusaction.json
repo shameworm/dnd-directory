@@ -1,0 +1,29 @@
+[
+	{
+		"title": "",
+		"subtitle": "Various class features, spells, and other abilities let you take an additional bonus action on your turn.",
+		"rules": [
+			{
+				"title": "Two-Weapon Fighting",
+				"icon": "crossed-swords",
+				"subtitle": "Attack with a light weapon in your off hand",
+				"reference": "PHB, pg. 192, 194-195",
+				"description": "<p>When you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon that you're holding in the other hand.</p><p>You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.</p><p>If either weapon has the thrown property, you can throw the weapon instead of making a melee attack with it.</p>"
+			},
+			{
+				"title": "Cast a Spell",
+				"icon": "magic-swirl",
+				"subtitle": "Cast a spell with a casting time of 1 bonus action",
+				"reference": "PHB, pg. 192",
+				"description": "<p>You can't cast a spell with your action and a different spell with your bonus action in the same turn, except when the action is used to cast a cantrip.</p><p>See the action <i>Cast a Spell</i> for more details.</p>"
+			},
+			{
+				"title": "Class Feature",
+				"icon": "embrassed-energy",
+				"subtitle": "Some class features are used as a bonus action",
+				"reference": "See class description",
+				"description": ""
+			}
+		]
+	}
+]

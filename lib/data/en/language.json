@@ -1,0 +1,127 @@
+[
+	{
+		"title": "Standard Languages",
+		"subtitle": "Your race indicates the languages your character can speak by default, and your background might give you access to one or more additional languages of your choice. Choose your languages from the Standard Languages table, or choose one that is common in your campaign.",
+		"rules": [
+			{
+				"title": "Common",
+				"icon": "conversation",
+				"subtitle": "Humans",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Humans and all intelligent surface races.</p><p><b>Script:</b> Common.</p>"
+			},
+			{
+				"title": "Dwarvish",
+				"icon": "dwarf-face",
+				"subtitle": "Dwarves",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Dwarves.</p><p><b>Script:</b> Dwarvish.</p>"
+			},
+			{
+				"title": "Elvish",
+				"icon": "woman-elf-face",
+				"subtitle": "Elves",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Elves.</p><p><b>Script:</b> Elvish.</p>"
+			},
+			{
+				"title": "Giant",
+				"icon": "ogre",
+				"subtitle": "Ogres and Giants",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Ogres and Giants.</p><p><b>Script:</b> Dwarvish.</p>"
+			},
+			{
+				"title": "Gnomish",
+				"icon": "wizard-face",
+				"subtitle": "Gnomes",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Gnomes.</p><p><b>Script:</b> Dwarvish.</p>"
+			},
+			{
+				"title": "Goblin",
+				"icon": "goblin-head",
+				"subtitle": "Goblinoids",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Goblins, Bugbears, Kobolds.</p><p><b>Script:</b> Dwarvish.</p>"
+			},
+			{
+				"title": "Halfling",
+				"icon": "nun-face",
+				"subtitle": "Halflings",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Halflings.</p><p><b>Script:</b> Common.</p>"
+			},
+			{
+				"title": "Orc",
+				"icon": "orc-head",
+				"subtitle": "Orcs",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Orcs.</p><p><b>Script:</b> Dwarvish.</p>"
+			}
+		]
+	},
+
+	{
+		"title": "Exotic Languages",
+		"subtitle": "With your DM's permission, you can choose a language from the Exotic Languages table or a secret language, such as thieves' cant or the tongue of druids.",
+		"rules": [
+			{
+				"title": "Abyssal",
+				"icon": "imp",
+				"subtitle": "Demons",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Demons.</p><p><b>Script:</b> Infernal.</p>"
+			},
+			{
+				"title": "Celestial",
+				"icon": "angel-outfit",
+				"subtitle": "Celestials",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Celestials.</p><p><b>Script:</b> Celestial.</p>"
+			},
+			{
+				"title": "Draconic",
+				"icon": "dragon-head",
+				"subtitle": "Dragons",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Dragons, Dragonborn.</p><p><b>Script:</b> Draconic.</p>"
+			},
+			{
+				"title": "Deep Speech",
+				"icon": "squid-head",
+				"subtitle": "Mind Flayers",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Mind Flayers, Beholders.</p><p><b>Script:</b> ---</p>"
+			},
+			{
+				"title": "Infernal",
+				"icon": "diablo-skull",
+				"subtitle": "Devils",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Devils.</p><p><b>Script:</b> Infernal.</p>"
+			},
+			{
+				"title": "Primordial",
+				"icon": "ifrit",
+				"subtitle": "Elementals",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Elementals.</p><p><b>Script:</b> Dwarvish.</p>"
+			},
+			{
+				"title": "Sylvan",
+				"icon": "fairy",
+				"subtitle": "Fey creatures",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Fey creatures.</p><p><b>Script:</b> Elvish.</p>"
+			},
+			{
+				"title": "Undercommon",
+				"icon": "cave-entrance",
+				"subtitle": "Underdark denizens",
+				"reference": "PHB, pg. 123",
+				"description": "<p><b>Typical Speakers:</b> Drow, Duergar, and Deep Gnomes.</p><p><b>Script:</b> Elvish.</p>"
+			}
+		]
+	}
+]

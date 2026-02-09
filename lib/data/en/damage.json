@@ -1,0 +1,128 @@
+[
+	{
+		"title": "",
+		"subtitle": "",
+		"rules": [
+			{
+				"title": "Advantage and Disadvantage",
+				"icon": "yin-yang",
+				"subtitle": "",
+				"reference": "PHB, pg. 173",
+				"description": "<p>Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll.</p><p>When that happens, you roll a second d20. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.</p><p>If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.</p><p>If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage, or vice versa. In such a situation, you have neither advantage nor disadvantage.</p>"
+			},
+			{
+				"title": "Critical Hit",
+				"icon": "dice-twenty-faces-twenty",
+				"subtitle": "20 on an attack roll",
+				"reference": "PHB, pg. 194, 196",
+				"description": "<p>If the d20 roll for an attack is a 20, the attack hits regardless of any modifiers or the target's AC.</p><p>When you score a critical hit, you get to roll extra dice for the attack's damage against the target. Roll all of the attack's damage dice twice and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.</p><p>For example, if you score a critical hit with a dagger, roll 2d4 for the damage, rather than 1d4, and then add your relevant ability modifier.</p><p>If the attack involves other damage dice, such as from the rogue's Sneak Attack feature, you roll those dice twice as well.</p>"
+			},
+			{
+				"title": "Critical Miss",
+				"icon": "dice-twenty-faces-one",
+				"subtitle": "1 on an attack roll",
+				"reference": "PHB, pg. 194",
+				"description": "<p>If the d20 roll for an attack is a 1, the attack misses regardless of any modifiers or the target's AC.</p>"
+			},
+			{
+				"title": "Resistance",
+				"icon": "armor-upgrade",
+				"subtitle": "Reduces damage",
+				"reference": "PHB, pg. 197",
+				"description": "<p>If a creature or an object has resistance to a damage type, damage of that type is halved against it. Resistance is applied after all other modifiers to damage.</p>"
+			},
+			{
+				"title": "Vulnerability",
+				"subtitle": "Increases damage",
+				"icon": "armor-downgrade",
+				"reference": "PHB, pg. 197",
+				"description": "<p>If a creature or an object has vulnerability to a damage type, damage of that type is doubled against it. Vulnerability is applied after all other modifiers to damage.</p>"
+			},
+			{
+				"title": "Falling",
+				"icon": "falling",
+				"subtitle": "Falling damage: 1d6 per 10 feet",
+				"reference": "PHB, pg. 183",
+				"description": "<p>At the end of a fall, a creature takes 1d6 bludgeoning damage for every 10 feet it fell, to a maximum of 20d6. The creature lands prone, unless it avoids taking damage from the fall.</p>"
+			},
+			{
+				"title": "Bludgeoning",
+				"icon": "wood-club",
+				"reference": "PHB, pg. 196",
+				"description": "Blunt force attacks -- hammers, falling, constriction, and the like -- deal bludgeoning damage."
+			},
+			{
+				"title": "Thunder",
+				"icon": "ultrasound",
+				"reference": "PHB, pg. 196",
+				"description": "A concussive burst of sound, such as the effect of the thunderwave spell, deals thunder damage."
+			},
+			{
+				"title": "Radiant",
+				"icon": "sundial",
+				"reference": "PHB, pg. 196",
+				"description": "Radiant damage, dealt by a cleric's flame strike spell or an angel's smiting weapon, sears the flesh like fire and overloads the spirit with power."
+			},
+			{
+				"title": "Acid",
+				"icon": "acid",
+				"reference": "PHB, pg. 196",
+				"description": "The corrosive spray of a black dragon's breath and the dissolving enzymes secreted by a black pudding deal acid damage."
+			},
+			{
+				"title": "Piercing",
+				"icon": "pierced-body",
+				"reference": "PHB, pg. 196",
+				"description": "Puncturing and impaling attacks, including spears and monsters' bites, deal piercing damage."
+			},
+			{
+				"title": "Necrotic",
+				"icon": "disintegrate",
+				"reference": "PHB, pg. 196",
+				"description": "Necrotic damage, dealt by certain undead and spells such as chill touch, withers matter and even the soul."
+			},
+			{
+				"title": "Fire",
+				"icon": "flame",
+				"reference": "PHB, pg. 196",
+				"description": "Red dragons breathe fire, and many spells conjure flames to deal fire damage."
+			},
+			{
+				"title": "Psychic",
+				"icon": "psychic-waves",
+				"reference": "PHB, pg. 196",
+				"description": "Mental abilities such as a mind flayer's psionic blast deal psychic damage."
+			},
+			{
+				"title": "Slashing",
+				"icon": "sword-wound",
+				"reference": "PHB, pg. 196",
+				"description": "Swords, axes, and monsters' claws deal slashing damage."
+			},
+			{
+				"title": "Force",
+				"icon": "ball-glow",
+				"reference": "PHB, pg. 196",
+				"description": "Force is pure magical energy focused into a damaging form. Most effects that deal force damage are spells, including magic missile and spiritual weapon."
+			},
+			{
+				"title": "Cold",
+				"icon": "ice-bolt",
+				"reference": "PHB, pg. 197",
+				"description": "The infernal chill radiating from an ice devil's spear and the frigid blast of a white dragon's breath deal cold damage."
+			},
+			{
+				"title": "Lightning",
+				"icon": "lightning-trio",
+				"reference": "PHB, pg. 197",
+				"description": "A lightning bolt spell and a blue dragon's breath deal lightning damage."
+			},
+			{
+				"title": "Poison",
+				"icon": "poison-gas",
+				"reference": "PHB, pg. 197",
+				"description": "Venomous stings and the toxic gas of a green dragon's breath deal poison damage."
+			}
+		]
+	}
+]

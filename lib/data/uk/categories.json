@@ -1,0 +1,86 @@
+[
+	{
+		"dataset": "/src/lib/data/uk/movement.json",
+		"title": "Переміщення",
+		"subtitle": "обмежено швидкістю",
+		"color": "g-stone"
+	},
+	{
+		"dataset": "/src/lib/data/uk/action.json",
+		"title": "Дії",
+		"subtitle": "1 за хід",
+		"color": "g-red"
+	},
+	{
+		"dataset": "/src/lib/data/uk/bonusaction.json",
+		"title": "Бонусні дії",
+		"subtitle": "максимум 1 за хід",
+		"color": "g-orange"
+	},
+	{
+		"dataset": "/src/lib/data/uk/reaction.json",
+		"title": "Реакції",
+		"subtitle": "1 до вашого наступного ходу",
+		"color": "g-amber"
+	},
+	{
+		"dataset": "/src/lib/data/uk/freeaction.json",
+		"title": "Вільні дії",
+		"color": "g-yellow"
+	},
+	{
+		"dataset": "/src/lib/data/uk/condition.json",
+		"title": "Стани",
+		"color": "g-lime"
+	},
+	{
+		"dataset": "/src/lib/data/uk/environment.json",
+		"title": "Довкілля та сприйняття",
+		"color": "g-green"
+	},
+	{
+		"dataset": "/src/lib/data/uk/hitpoint.json",
+		"title": "Хіти, смерть і відпочинок",
+		"color": "g-emerald"
+	},
+	{
+		"dataset": "/src/lib/data/uk/damage.json",
+		"title": "Пошкодження та атака",
+		"color": "g-teal"
+	},
+	{
+		"dataset": "/src/lib/data/uk/abilityscore.json",
+		"title": "Характеристики та навички",
+		"color": "g-cyan"
+	},
+	{
+		"dataset": "/src/lib/data/uk/equipment.json",
+		"title": "Інструменти та зброя",
+		"color": "g-sky"
+	},
+	{
+		"dataset": "/src/lib/data/uk/spellcasting.json",
+		"title": "Закляття",
+		"color": "g-blue"
+	},
+	{
+		"dataset": "/src/lib/data/uk/travel.json",
+		"title": "Подорож",
+		"color": "g-indigo"
+	},
+	{
+		"dataset": "/src/lib/data/uk/multiclassing.json",
+		"title": "Мультикласування",
+		"color": "g-violet"
+	},
+	{
+		"dataset": "/src/lib/data/uk/language.json",
+		"title": "Мови",
+		"color": "g-purple"
+	},
+	{
+		"dataset": "/src/lib/data/uk/xp.json",
+		"title": "Досвід",
+		"color": "g-fuchsia"
+	}
+]

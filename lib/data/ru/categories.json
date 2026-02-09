@@ -1,85 +1,85 @@
 [
 	{
-		"dataset": "/src/lib/data/ps/movement.json",
+		"dataset": "/src/lib/data/ru/movement.json",
 		"title": "Движение",
 		"subtitle": "ограничено скоростью",
 		"color": "g-stone"
 	},
 	{
-		"dataset": "/src/lib/data/ps/action.json",
+		"dataset": "/src/lib/data/ru/action.json",
 		"title": "Действия",
 		"subtitle": "1 за ход",
 		"color": "g-red"
 	},
 	{
-		"dataset": "/src/lib/data/ps/bonusaction.json",
+		"dataset": "/src/lib/data/ru/bonusaction.json",
 		"title": "Бонусные действия",
 		"subtitle": "максимум 1 за ход",
 		"color": "g-orange"
 	},
 	{
-		"dataset": "/src/lib/data/ps/reaction.json",
+		"dataset": "/src/lib/data/ru/reaction.json",
 		"title": "Реакции",
 		"subtitle": "1 до вашего следующего хода",
 		"color": "g-amber"
 	},
 	{
-		"dataset": "/src/lib/data/ps/freeaction.json",
+		"dataset": "/src/lib/data/ru/freeaction.json",
 		"title": "Свободные действия",
 		"color": "g-yellow"
 	},
 	{
-		"dataset": "/src/lib/data/ps/condition.json",
+		"dataset": "/src/lib/data/ru/condition.json",
 		"title": "Состояния",
 		"color": "g-lime"
 	},
 	{
-		"dataset": "/src/lib/data/ps/environment.json",
+		"dataset": "/src/lib/data/ru/environment.json",
 		"title": "Окружающая среда и восприятие",
 		"color": "g-green"
 	},
 	{
-		"dataset": "/src/lib/data/ps/hitpoint.json",
+		"dataset": "/src/lib/data/ru/hitpoint.json",
 		"title": "Хиты, смерть и отдых",
 		"color": "g-emerald"
 	},
 	{
-		"dataset": "/src/lib/data/ps/damage.json",
+		"dataset": "/src/lib/data/ru/damage.json",
 		"title": "Урон и атака",
 		"color": "g-teal"
 	},
 	{
-		"dataset": "/src/lib/data/ps/abilityscore.json",
+		"dataset": "/src/lib/data/ru/abilityscore.json",
 		"title": "Характеристики и навыки",
 		"color": "g-cyan"
 	},
 	{
-		"dataset": "/src/lib/data/ps/equipment.json",
+		"dataset": "/src/lib/data/ru/equipment.json",
 		"title": "Инструменты и оружие",
 		"color": "g-sky"
 	},
 	{
-		"dataset": "/src/lib/data/ps/spellcasting.json",
+		"dataset": "/src/lib/data/ru/spellcasting.json",
 		"title": "Заклинания",
 		"color": "g-blue"
 	},
 	{
-		"dataset": "/src/lib/data/ps/travel.json",
+		"dataset": "/src/lib/data/ru/travel.json",
 		"title": "Путешествие",
 		"color": "g-indigo"
 	},
 	{
-		"dataset": "/src/lib/data/ps/multiclassing.json",
+		"dataset": "/src/lib/data/ru/multiclassing.json",
 		"title": "Мультиклассирование",
 		"color": "g-violet"
 	},
 	{
-		"dataset": "/src/lib/data/ps/language.json",
+		"dataset": "/src/lib/data/ru/language.json",
 		"title": "Языки",
 		"color": "g-purple"
 	},
 	{
-		"dataset": "/src/lib/data/ps/xp.json",
+		"dataset": "/src/lib/data/ru/xp.json",
 		"title": "Опыт",
 		"color": "g-fuchsia"
 	}

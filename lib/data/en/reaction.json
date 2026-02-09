@@ -1,0 +1,29 @@
+[
+	{
+		"title": "",
+		"subtitle": "A reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's.",
+		"rules": [
+			{
+				"title": "Opportunity Attack",
+				"icon": "backstab",
+				"subtitle": "Strike an enemy that leaves your reach",
+				"reference": "PHB, pg. 195",
+				"description": "<p>You can make an opportunity attack when a hostile creature that you can see moves out of your reach.</p><p>To make the opportunity attack, you use your reaction to make one melee attack against the provoking creature.</p><p>The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.</p><p>You can avoid provoking an opportunity attack by taking the Disengage action. You also don't provoke an opportunity attack when you teleport or when someone or something moves you without using your movement, action, or reaction.</p><p>The opportunity attack does not get an Extra Attack (fighter feature), since it is not the Attack action.</p>"
+			},
+			{
+				"title": "Readied Action",
+				"icon": "empty-hourglass",
+				"subtitle": "Execute the reaction you prepared as part of the Ready action",
+				"reference": "PHB, pg. 193",
+				"description": "<p>Trigger: when the conditions of your Ready action are met.</p>"
+			},
+			{
+				"title": "Cast a Spell",
+				"icon": "magic-swirl",
+				"subtitle": "Cast a spell with a casting time of 1 reaction",
+				"reference": "PHB, pg. 192",
+				"description": "<p>Trigger: depends on the spell.</p><p>See the action <i>Cast a Spell</i> for more details.</p>"
+			}
+		]
+	}
+]

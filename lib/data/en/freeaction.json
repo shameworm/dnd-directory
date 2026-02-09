@@ -1,0 +1,22 @@
+[
+	{
+		"title": "",
+		"subtitle": "A free action can be performed on your turn without using your action.",
+		"rules": [
+			{
+				"title": "Communication",
+				"icon": "conversation",
+				"subtitle": "Brief utterance or phrase",
+				"reference": "PHB, pg. 190",
+				"description": "<p>You can communicate however you are able, through brief utterances and gestures.</p>"
+			},
+			{
+				"title": "Interact with an Object",
+				"icon": "hand",
+				"subtitle": "Interact with one object near you",
+				"reference": "PHB, pg. 190",
+				"description": "<p>You can also interact with one object or feature of the environment for free, during either your move or your action. For example, you could open a door during your move as you stride toward a foe, or you could draw your weapon as part of the same action you use to attack.</p><p>If you want to interact with a second object, you need to use your action. Some magic items and other special objects always require an action to use, as stated in their descriptions.</p>"
+			}
+		]
+	}
+]

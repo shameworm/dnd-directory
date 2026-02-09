@@ -1,0 +1,86 @@
+[
+	{
+		"dataset": "/src/lib/data/en/movement.json",
+		"title": "Movement",
+		"subtitle": "limited by speed",
+		"color": "g-stone"
+	},
+	{
+		"dataset": "/src/lib/data/en/action.json",
+		"title": "Actions",
+		"subtitle": "1 per turn",
+		"color": "g-red"
+	},
+	{
+		"dataset": "/src/lib/data/en/bonusaction.json",
+		"title": "Bonus Actions",
+		"subtitle": "max 1 per turn",
+		"color": "g-orange"
+	},
+	{
+		"dataset": "/src/lib/data/en/reaction.json",
+		"title": "Reactions",
+		"subtitle": "1 until your next turn",
+		"color": "g-amber"
+	},
+	{
+		"dataset": "/src/lib/data/en/freeaction.json",
+		"title": "Free Actions",
+		"color": "g-yellow"
+	},
+	{
+		"dataset": "/src/lib/data/en/condition.json",
+		"title": "Conditions",
+		"color": "g-lime"
+	},
+	{
+		"dataset": "/src/lib/data/en/environment.json",
+		"title": "Environment and Perception",
+		"color": "g-green"
+	},
+	{
+		"dataset": "/src/lib/data/en/hitpoint.json",
+		"title": "Hit Points, Death and Rest",
+		"color": "g-emerald"
+	},
+	{
+		"dataset": "/src/lib/data/en/damage.json",
+		"title": "Damage and Attack",
+		"color": "g-teal"
+	},
+	{
+		"dataset": "/src/lib/data/en/abilityscore.json",
+		"title": "Ability Scores and Skills",
+		"color": "g-cyan"
+	},
+	{
+		"dataset": "/src/lib/data/en/equipment.json",
+		"title": "Equipment and Weapons",
+		"color": "g-sky"
+	},
+	{
+		"dataset": "/src/lib/data/en/spellcasting.json",
+		"title": "Spellcasting",
+		"color": "g-blue"
+	},
+	{
+		"dataset": "/src/lib/data/en/travel.json",
+		"title": "Travel",
+		"color": "g-indigo"
+	},
+	{
+		"dataset": "/src/lib/data/en/multiclassing.json",
+		"title": "Multiclassing",
+		"color": "g-violet"
+	},
+	{
+		"dataset": "/src/lib/data/en/language.json",
+		"title": "Languages",
+		"color": "g-purple"
+	},
+	{
+		"dataset": "/src/lib/data/en/xp.json",
+		"title": "Experience",
+		"color": "g-fuchsia"
+	}
+]

@@ -1,0 +1,127 @@
+[
+	{
+		"title": "",
+		"subtitle": "",
+		"rules": [
+			{
+				"title": "Attack",
+				"icon": "saber-and-pistol",
+				"subtitle": "Make one melee or ranged attack",
+				"reference": "PHB, pg. 192, 194-195",
+				"description": "<p>Certain features, such as the fighter's <i>Extra Attack</i>, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may have a different target. You may move between attacks.</p><p>When you attack with a light melee weapon held in one hand, you can use your other hand to make a bonus attack with a different light melee weapon (see the bonus action <i>Two-Weapon Fighting</i>).</p><p>You may substitute one of your attacks for a <i>Grapple</i> or a <i>Shove</i>.</p><p>Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; attacks by unseen or hidden attackers.</p><p>Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers.</p>"
+			},
+			{
+				"title": "Grapple",
+				"icon": "grab",
+				"subtitle": "Attempt to grab a creature or wrestle with it",
+				"reference": "PHB, pg. 195",
+				"description": "<p>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.</p><p>The target of your grapple must be no more than one size larger than you, and it must be within your reach.</p><p>Using at least one free hand, you try to seize the target by making a grapple check: a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). The check automatically succeeds if the target is Incapacitated.</p><p>If you succeed, the target becomes grappled. The condition's description states what ends it, and you can release the target whenever you like (no action required).</p>"
+			},
+			{
+				"title": "Shove",
+				"icon": "hand",
+				"subtitle": "Shove a creature to knock it prone or push it away",
+				"reference": "PHB, pg. 195",
+				"description": "<p>Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it 5 feet away from you. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.</p><p>The target of your shove must be no more than one size larger than you, and it must be within your reach.</p><p>You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). The check automatically succeeds if the target is Incapacitated.</p><p>If you succeed, you either knock the target prone or push it 5 feet away from you.</p>"
+			},
+			{
+				"title": "Cast a Spell",
+				"icon": "magic-swirl",
+				"subtitle": "Cast a spell with a casting time of 1 action",
+				"reference": "PHB, pg. 192",
+				"description": "<p>You can't cast a spell with your action and a different spell with your bonus action in the same turn, except when the action is used to cast a cantrip.</p><p>The target of a spell must be within the spell's range. A target must also be in line of sight, which means the target must not have total cover.</p><p>Spells with a material component do not consume the material unless explicitly stated. If a cost is indicated for a component, a character must have that specific component before the spell can be cast.</p><p>Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. If a spell must be maintained with concentration, that fact appears in its Duration entry, and the spell specifies how long you can concentrate on it. You can end concentration at any time (no action required). Normal activity, such as moving and attacking, doesn't interfere with concentration. The following factors can break concentration: casting another spell that requires concentration; taking damage; being incapacitated or killed.</p>"
+			},
+			{
+				"title": "Dash",
+				"icon": "sprint",
+				"subtitle": "Your speed is doubled for the current turn",
+				"reference": "PHB, pg. 192",
+				"description": "<p>When you take the Dash action, you gain extra movement for the current turn equal to your speed, after applying any modifiers.</p>"
+			},
+			{
+				"title": "Disengage",
+				"icon": "journey",
+				"subtitle": "Move without provoking opportunity attacks",
+				"reference": "PHB, pg. 192",
+				"description": "<p>If you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn.</p>"
+			},
+			{
+				"title": "Dodge",
+				"icon": "dodging",
+				"subtitle": "Focus entirely on avoiding attacks",
+				"reference": "PHB, pg. 192",
+				"description": "<p>Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.</p><p>You lose this benefit if you are incapacitated or if your speed drops to 0.</p>"
+			},
+			{
+				"title": "Escape",
+				"icon": "manacles",
+				"subtitle": "Attempt to escape a grapple or restraints",
+				"reference": "PHB, pg. 195",
+				"description": "<p>A grappled creature can use its action to escape. To do so, it must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by your Strength (Athletics) check.</p><p>Escaping other conditions (such as manacles) may require a Strength or Dexterity check against a specified DC.</p>"
+			},
+			{
+				"title": "Help",
+				"icon": "telepathy",
+				"subtitle": "Grant an ally advantage on an ability check or attack",
+				"reference": "PHB, pg. 192",
+				"description": "<p>The creature you help gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn.</p><p>Alternatively, you can aid a friendly creature in attacking a creature within 5 feet of you. You feint, distract the target, or in some other way team up to make your ally's attack more effective. If your ally attacks the target before your next turn, the first attack roll is made with advantage.</p><p>The advantage lasts until the start of your next turn.</p>"
+			},
+			{
+				"title": "Use an Object",
+				"icon": "snatch",
+				"subtitle": "Interact with a second object or use special object properties",
+				"reference": "PHB, pg. 193",
+				"description": "<p>You normally interact with an object while doing something else, such as when you draw a sword as part of an attack or open a door as part of your movement. When an object requires your action for its use, you take the Use an Object action.</p><p>This action is also useful when you want to interact with more than one object on your turn. For example: you open a door (no action required) and also want to drink a potion of Barkskin (Use an Object action).</p>"
+			},
+			{
+				"title": "Don a Shield",
+				"icon": "round-shield",
+				"subtitle": "Equip or unequip a shield",
+				"reference": "PHB, pg. 144-146",
+				"description": "<p>If you don't already have a shield in hand, equipping it takes one action.</p><p>Donning armor takes several minutes and cannot be done during combat.</p>"
+			},
+			{
+				"title": "Hide",
+				"icon": "hooded-assassin",
+				"subtitle": "Attempt to hide from sight",
+				"reference": "PHB, pg. 192",
+				"description": "<p>You can't hide from a creature that can see you, and if you make noise (such as shouting a warning or knocking over a vase), you give away your position.</p><p>When you try to hide, make a Dexterity (Stealth) check. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for you.</p><p>If you are hiding, there is a chance you will be noticed even without an active search. To determine whether such a creature notices you, the DM compares your Dexterity (Stealth) check with that creature's passive Wisdom (Perception) score, which equals 10 + the creature's Wisdom modifier, plus any other applicable bonuses or penalties.</p>"
+			},
+			{
+				"title": "Search",
+				"icon": "magnifying-glass",
+				"subtitle": "Devote your attention to finding something",
+				"reference": "PHB, pg. 193",
+				"description": "<p>Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check.</p>"
+			},
+			{
+				"title": "Stabilize",
+				"icon": "bandage-roll",
+				"subtitle": "Stabilize a dying creature",
+				"reference": "PHB, pg. 197",
+				"description": "<p>The most dependable way to save a creature with 0 hit points is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed death saving throw.</p><p>You can use your action to administer first aid to an unconscious creature and attempt to stabilize it, which requires a successful DC 10 Wisdom (Medicine) check.</p><p>A <b>stable</b> creature doesn't make death saving throws, even though it has 0 hit points, but it does remain unconscious. The creature stops being stable, and must start making death saving throws again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after 1d4 hours.</p>"
+			},
+			{
+				"title": "Ready",
+				"icon": "empty-hourglass",
+				"subtitle": "Choose a trigger and a response action",
+				"reference": "PHB, pg. 193",
+				"description": "<p>First, you decide what perceivable circumstance will trigger your reaction.</p><p>Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.</p><p><blockquote>Examples: \"If the cultist steps on the trapdoor, I'll pull the lever that opens it,\" and \"If the goblin steps next to me, I move away.\"</blockquote></p><p>When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. A readied action can only be taken before the start of your next turn. Remember that you can take only one reaction per round.</p><p>When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding the spell's magic requires concentration. If your concentration is broken, the spell dissipates without taking effect.</p>"
+			},
+			{
+				"title": "Class Feature",
+				"icon": "embrassed-energy",
+				"subtitle": "Use a class or racial feature that requires an action",
+				"reference": "See class and race description",
+				"description": ""
+			},
+			{
+				"title": "Improvise",
+				"icon": "juggler",
+				"subtitle": "Any other action you can think of",
+				"reference": "PHB, pg. 193",
+				"description": "<p>Your character can do things not covered by these rules, such as breaking down doors, intimidating enemies, sensing weaknesses in magical defenses, or calling for a parley with a foe.</p><p>The only limits to the actions you can attempt are your imagination and your ability scores. See the descriptions of the ability scores in chapter 7 for inspiration.</p><p>When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure.</p>"
+			}
+		]
+	}
+]

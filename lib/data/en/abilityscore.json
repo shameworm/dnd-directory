@@ -1,0 +1,297 @@
+[
+	{
+		"title": "Ability Scores",
+		"subtitle": "General information about ability scores",
+		"rules": [
+			{
+				"title": "Ability Score Modifier",
+				"icon": "id-card",
+				"subtitle": "Bonus added to ability checks based on score values",
+				"reference": "PHB, pg. 13",
+				"description": "<b>Ability Scores and Modifiers</b><table><thead><tr><th><b>Score</b></th><th><b>Modifier</b></th></thead></tr><tr><td>1</td><td>-5</td></tr><tr><td>2-3</td><td>-4</td></tr><tr><td>4-5</td><td>-3</td></tr><tr><td>6-7</td><td>-2</td></tr><tr><td>8-9</td><td>-1</td></tr><tr><td>10-11</td><td>0</td></tr><tr><td>12-13</td><td>+1</td></tr><tr><td>14-15</td><td>+2</td></tr><tr><td>16-17</td><td>+3</td></tr><tr><td>18-19</td><td>+4</td></tr><tr><td>20-21</td><td>+5</td></tr><tr><td>22-23</td><td>+6</td></tr><tr><td>24-25</td><td>+7</td></tr><tr><td>26-27</td><td>+8</td></tr><tr><td>28-29</td><td>+9</td></tr><tr><td>30</td><td>+10</td></tr></table>"
+			}
+		]
+	},
+	{
+		"title": "Strength",
+		"subtitle": "Natural athleticism, bodily power.",
+		"rules": [
+			{
+				"title": "Athletics",
+				"icon": "strong",
+				"subtitle": "Athletic activities",
+				"reference": "PHB, pg. 175",
+				"description": "Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities: <ul><li>You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off.</li><li>You try to jump an unusually long distance or pull off a stunt midjump.</li><li>You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.</li></ul>"
+			},
+			{
+				"title": "Carrying Capacity",
+				"icon": "knapsack",
+				"subtitle": "How much weight you can carry. Strength multiplied by 15",
+				"reference": "PHB, pg. 176",
+				"description": "Your carrying capacity is your Strength score multiplied by 15. This is the weight (in pounds) that you can carry, which is high enough that most characters don't usually have to worry about it."
+			},
+			{
+				"title": "Push, Drag, or Lift",
+				"icon": "pull",
+				"subtitle": "How much weight you can push, drag, or lift. Strength multiplied by 30",
+				"reference": "PHB, pg. 176",
+				"description": "You can push, drag, or lift a weight in pounds up to twice your carrying capacity (or 30 times your Strength score). While pushing or dragging weight in excess of your carrying capacity, your speed drops to 5 feet."
+			},
+			{
+				"title": "Size and Carrying",
+				"icon": "lift",
+				"subtitle": "How size affects carrying capacity",
+				"reference": "PHB, pg. 176",
+				"description": "Larger creatures can bear more weight, whereas Tiny creatures can carry less. For each size category above Medium, double the creature's carrying capacity and the amount it can push, drag, or lift. For a Tiny creature, halve these weights."
+			},
+			{
+				"title": "Attack Rolls and Damage",
+				"icon": "stone-axe",
+				"subtitle": "How likely you are to hit and how much damage you deal",
+				"reference": "PHB, pg. 176",
+				"description": "You add your Strength modifier to your attack roll and your damage roll when attacking with a melee weapon such as a mace, a battleaxe, or a javelin. You use melee weapons to make melee attacks in hand-to-hand combat, and some of them can be thrown to make a ranged attack."
+			},
+			{
+				"title": "Other Strength Checks",
+				"icon": "perspective-dice-six-faces-random",
+				"reference": "PHB, pg. 175-176",
+				"description": "The DM might call for a Strength check when you try to accomplish tasks like the following: <ul><li>Force open a stuck, locked, or barred door</li><li>Break free of bonds</li><li>Push through a tunnel that is too small</li><li>Hang on to a wagon while being dragged behind it</li><li>Tip over a statue</li><li>Keep a boulder from rolling</li></ul>"
+			}
+		]
+	},
+	{
+		"title": "Dexterity",
+		"subtitle": "Agility, reflexes, balance.",
+		"rules": [
+			{
+				"title": "Acrobatics",
+				"icon": "falling",
+				"subtitle": "Exceptional physical feats",
+				"reference": "PHB, pg. 176",
+				"description": "Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The DM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips."
+			},
+			{
+				"title": "Sleight of Hand",
+				"icon": "snatch",
+				"subtitle": "Legerdemain and stealthy manipulation",
+				"reference": "PHB, pg. 177",
+				"description": "Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The DM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket."
+			},
+			{
+				"title": "Stealth",
+				"icon": "hood",
+				"subtitle": "Helps you go unnoticed",
+				"reference": "PHB, pg. 177",
+				"description": "Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
+			},
+			{
+				"title": "Armor Class",
+				"icon": "breastplate",
+				"subtitle": "How likely you are to avoid a hit",
+				"reference": "PHB, pg. 177",
+				"description": "Depending on the armor you wear, you might add some or all of your Dexterity modifier to your Armor Class, as described in chapter 5."
+			},
+			{
+				"title": "Initiative",
+				"icon": "sprint",
+				"subtitle": "How quickly you act in combat",
+				"reference": "PHB, pg. 177",
+				"description": "At the beginning of every combat, you roll initiative by making a Dexterity check. Initiative determines the order of creatures' turns in combat, as described in chapter 9."
+			},
+			{
+				"title": "Attack Rolls and Damage",
+				"icon": "archer",
+				"subtitle": "How likely you are to hit a target",
+				"reference": "PHB, pg. 177",
+				"description": "You add your Dexterity modifier to your attack roll and your damage roll when attacking with a ranged weapon, such as a sling or a longbow. You can also add your Dexterity modifier to your attack roll and your damage roll when attacking with a melee weapon that has the finesse property, such as a dagger or a rapier."
+			},
+			{
+				"title": "Other Dexterity Checks",
+				"icon": "perspective-dice-six-faces-random",
+				"reference": "PHB, pg. 177",
+				"description": "The DM might call for a Dexterity check when you try to accomplish tasks like the following: <ul><li>Control a heavily laden cart on a steep descent</li><li>Steer a chariot around a tight turn</li><li>Pick a lock</li><li>Disable a trap</li><li>Securely tie up a prisoner</li><li>Wriggle free of bonds</li><li>Play a stringed instrument</li><li>Craft a small or detailed object</li></ul>"
+			}
+		]
+	},
+	{
+		"title": "Constitution",
+		"subtitle": "Health, stamina, vital force.",
+		"rules": [
+			{
+				"title": "Hit Points",
+				"icon": "heart-bottle",
+				"subtitle": "A measure of your health and endurance",
+				"reference": "PHB, pg. 177",
+				"description": "<p>Your Constitution modifier contributes to your hit points. Typically, you add your Constitution modifier to each Hit Die you roll for your hit points.</p><p>If your Constitution modifier changes, your hit point maximum changes as well, as though you had the new modifier from 1st level. For example, if you raise your Constitution score when you reach 4th level and your Constitution modifier increases from +1 to +2, you adjust your hit point maximum as though the modifier had always been +2. So you add 3 hit points for your first three levels, and then roll your hit points for 4th level using your new modifier. Or if you're 7th level and some effect lowers your Constitution score so as to reduce your Constitution modifier by 1, your hit point maximum is reduced by 7.</p>"
+			},
+			{
+				"title": "Holding Breath",
+				"icon": "drowning",
+				"subtitle": "How long you can hold your breath",
+				"reference": "PHB, pg. 183",
+				"description": "<p>A creature can hold its breath for a number of minutes equal to 1 + its Constitution modifier (minimum of 30 seconds).</p><p>When a creature runs out of breath, it can survive for a number of rounds equal to its Constitution modifier (minimum 1 round). At the start of its next turn, it drops to 0 hit points and is dying. It can't regain hit points or be stabilized until it can breathe again.</p><p>For example, a creature with a Constitution of 14 can hold its breath for 3 minutes. If it starts suffocating, it has 2 rounds to reach air before it drops to 0 hit points.</p>"
+			},
+			{
+				"title": "Other Constitution Checks",
+				"icon": "perspective-dice-six-faces-random",
+				"reference": "PHB, pg. 177",
+				"description": "Constitution checks are uncommon, and no skills apply to Constitution checks, because the endurance this ability represents is largely passive rather than involving a specific effort on the part of a character or monster. A Constitution check can model your attempt to push beyond normal limits, however. The DM might call for a Constitution check when you try to accomplish tasks like the following: <ul><li>March or labor for hours without rest</li><li>Go without sleep</li><li>Survive without food or water</li><li>Quaff an entire stein of ale in one go</li></ul>"
+			}
+		]
+	},
+	{
+		"title": "Intelligence",
+		"subtitle": "Mental acuity, memory, analytical skill.",
+		"rules": [
+			{
+				"title": "Arcana",
+				"icon": "magic-lamp",
+				"subtitle": "Deep understanding of magic",
+				"reference": "PHB, pg. 177",
+				"description": "Your Intelligence (Arcana) check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes."
+			},
+			{
+				"title": "History",
+				"icon": "open-book",
+				"subtitle": "Knowledge of past events",
+				"reference": "PHB, pg. 177-178",
+				"description": "Your Intelligence (History) check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations."
+			},
+			{
+				"title": "Investigation",
+				"icon": "magnifying-glass",
+				"subtitle": "Search for clues and logical connections",
+				"reference": "PHB, pg. 178",
+				"description": "When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check."
+			},
+			{
+				"title": "Nature",
+				"icon": "spoted-flower",
+				"subtitle": "Knowledge of flora, fauna, and geography",
+				"reference": "PHB, pg. 178",
+				"description": "Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles."
+			},
+			{
+				"title": "Religion",
+				"icon": "holy-grail",
+				"subtitle": "Understanding of religious topics and theology",
+				"reference": "PHB, pg. 178",
+				"description": "Your Intelligence (Religion) check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults."
+			},
+			{
+				"title": "Spellcasting Ability",
+				"icon": "magic-swirl",
+				"subtitle": "Wizards",
+				"reference": "PHB, pg. 178",
+				"description": "Wizards use Intelligence as their spellcasting ability, which helps determine the saving throw DCs of spells they cast."
+			},
+			{
+				"title": "Other Intelligence Checks",
+				"icon": "perspective-dice-six-faces-random",
+				"reference": "PHB, pg. 178",
+				"description": "The DM might call for an Intelligence check when you try to accomplish tasks like the following:<ul><li>Communicate with a creature without using words</li><li>Estimate the value of a precious item</li><li>Pull together a disguise to pass as a city guard</li><li>Forge a document</li><li>Recall lore about a craft or trade</li><li>Win a game of wits</li></ul>"
+			}
+		]
+	},
+	{
+		"title": "Wisdom",
+		"subtitle": "Awareness, intuition, insight.",
+		"rules": [
+			{
+				"title": "Animal Handling",
+				"icon": "koala",
+				"subtitle": "Used for managing animals",
+				"reference": "PHB, pg. 178",
+				"description": "When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the DM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver."
+			},
+			{
+				"title": "Insight",
+				"icon": "brain",
+				"subtitle": "Detecting deception and motives",
+				"reference": "PHB, pg. 178",
+				"description": "Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms."
+			},
+			{
+				"title": "Medicine",
+				"icon": "bandage-roll",
+				"subtitle": "Everything related to medicine",
+				"reference": "PHB, pg. 178",
+				"description": "A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness."
+			},
+			{
+				"title": "Perception",
+				"icon": "semi-closed-eye",
+				"subtitle": "Allows you to notice things",
+				"reference": "PHB, pg. 178",
+				"description": "<p>Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses.</p><p>For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.</p>"
+			},
+			{
+				"title": "Survival",
+				"icon": "footprint",
+				"subtitle": "Hunting and tracking",
+				"reference": "PHB, pg. 178",
+				"description": "The DM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards."
+			},
+			{
+				"title": "Spellcasting Ability",
+				"icon": "magic-swirl",
+				"subtitle": "Druids, clerics, and rangers",
+				"reference": "PHB, pg. 178",
+				"description": "Druids, clerics, and rangers use Wisdom as their spellcasting ability, which helps determine the saving throw DCs of spells they cast."
+			},
+			{
+				"title": "Other Wisdom Checks",
+				"icon": "perspective-dice-six-faces-random",
+				"reference": "PHB, pg. 178",
+				"description": "The DM might call for a Wisdom check when you try to accomplish tasks like the following:<ul><li>Get a gut feeling about what course of action to follow</li><li>Discern whether a seemingly dead or living creature is undead</li></ul>"
+			}
+		]
+	},
+	{
+		"title": "Charisma",
+		"subtitle": "Confidence, eloquence, leadership.",
+		"rules": [
+			{
+				"title": "Deception",
+				"icon": "convince",
+				"subtitle": "Lying and hiding motives",
+				"reference": "PHB, pg. 178",
+				"description": "Your Charisma (Deception) check determines whether you can convincingly hide the truth, either in words or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie."
+			},
+			{
+				"title": "Intimidation",
+				"icon": "screaming",
+				"subtitle": "Threats and coercion",
+				"reference": "PHB, pg. 179",
+				"description": "When you attempt to influence someone through overt threats, hostile actions, and physical violence, the DM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision."
+			},
+			{
+				"title": "Performance",
+				"icon": "drama-masks",
+				"subtitle": "Singing, dancing, and acting",
+				"reference": "PHB, pg. 179",
+				"description": "Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment."
+			},
+			{
+				"title": "Persuasion",
+				"icon": "discussion",
+				"subtitle": "Convincing and inspiring",
+				"reference": "PHB, pg. 179",
+				"description": "When you attempt to influence someone or a group of people with tact, social graces, or good nature, the DM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk."
+			},
+			{
+				"title": "Spellcasting Ability",
+				"icon": "magic-swirl",
+				"subtitle": "Bards, warlocks, paladins, and sorcerers",
+				"reference": "PHB, pg. 179",
+				"description": "Bards, warlocks, paladins, and sorcerers use Charisma as their spellcasting ability, which helps determine the saving throw DCs of spells they cast."
+			},
+			{
+				"title": "Other Charisma Checks",
+				"icon": "perspective-dice-six-faces-random",
+				"reference": "PHB, pg. 179",
+				"description": "The DM might call for a Charisma check when you try to accomplish tasks like the following:<ul><li>Find the best person to talk to for news, rumors, and gossip</li><li>Blend into a crowd to get the sense of key topics of conversation</li><li>Charm a lady or gentleman at a fancy ball</li></ul>"
+			}
+		]
+	}
+]
