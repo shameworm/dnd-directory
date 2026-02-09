@@ -3,16 +3,11 @@
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { useTheme } from "@/components/providers/theme-provider";
 import type { ThemeVariant } from "@/lib/types";
-import { GiSpellBook, GiScrollQuill, GiDragonHead } from "react-icons/gi";
+import { GiSpellBook, GiDragonHead } from "react-icons/gi";
 
 const THEMES: { value: ThemeVariant; label: string; icon: React.ReactNode }[] =
   [
     { value: "codex", label: "Arcane Codex", icon: <GiSpellBook size={18} /> },
-    {
-      value: "scroll",
-      label: "Clean Scroll",
-      icon: <GiScrollQuill size={18} />,
-    },
     {
       value: "dragon",
       label: "Dragon Scale",

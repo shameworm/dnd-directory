@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -12,10 +12,12 @@ import {
 } from "@/components/ui/sheet";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import { ThemeSwitcher } from "@/components/theme-switcher";
+import { useLocale } from "@/components/providers/locale-provider";
 import { GiRollingDices } from "react-icons/gi";
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const { t } = useLocale();
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-md">
@@ -26,7 +28,7 @@ export function Header() {
         >
           <GiRollingDices className="size-7 text-primary" />
           <span className="font-display font-semibold text-lg hidden sm:inline">
-            D&D Directory
+            {t.appTitle}
           </span>
           <span className="font-display font-semibold text-lg sm:hidden">
             D&D
@@ -48,17 +50,17 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-72">
-              <SheetTitle className="font-display">Settings</SheetTitle>
+              <SheetTitle className="font-display">{t.settings}</SheetTitle>
               <div className="flex flex-col gap-6 mt-6">
                 <div>
                   <label className="text-sm font-medium text-muted-foreground mb-2 block">
-                    Theme
+                    {t.theme}
                   </label>
                   <ThemeSwitcher />
                 </div>
                 <div>
                   <label className="text-sm font-medium text-muted-foreground mb-2 block">
-                    Language
+                    {t.language}
                   </label>
                   <LanguageSwitcher />
                 </div>

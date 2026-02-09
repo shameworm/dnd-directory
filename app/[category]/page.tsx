@@ -5,11 +5,13 @@ import { Header } from "@/components/header";
 import { RuleGroup } from "@/components/rule-group";
 import { getCategoryColors } from "@/lib/colors";
 import { getLocale } from "@/lib/get-locale";
+import { getUIStrings } from "@/lib/i18n";
 import {
-  getCategories,
   getCategoryData,
   getCategoryMeta,
   getAllSlugs,
+  getRuleIndex,
+  linkifyDescriptions,
 } from "@/lib/data";
 import { ChevronRight } from "lucide-react";
 
@@ -42,12 +44,15 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   const { category } = await params;
   const locale = await getLocale();
   const meta = getCategoryMeta(locale, category);
+  const t = getUIStrings(locale);
 
   if (!meta) notFound();
 
-  const data = getCategoryData(locale, category);
-  if (!data) notFound();
+  const rawData = getCategoryData(locale, category);
+  if (!rawData) notFound();
 
+  const ruleIndex = getRuleIndex(locale);
+  const data = linkifyDescriptions(rawData, ruleIndex, category);
   const colors = getCategoryColors(meta.color);
 
   return (
@@ -60,7 +65,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           aria-label="Breadcrumb"
         >
           <Link href="/" className="hover:text-foreground transition-colors">
-            Home
+            {t.home}
           </Link>
           <ChevronRight className="size-3.5" />
           <span style={{ color: colors.text }}>{meta.title}</span>

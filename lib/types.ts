@@ -1,6 +1,6 @@
 export type Locale = "en" | "uk" | "ru";
 
-export type ThemeVariant = "codex" | "scroll" | "dragon";
+export type ThemeVariant = "codex" | "dragon";
 
 export interface CategoryMeta {
   dataset: string;

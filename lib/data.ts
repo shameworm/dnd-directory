@@ -1,4 +1,4 @@
-import type { Locale, CategoryMeta, Category } from "./types";
+import type { Locale, CategoryMeta, Category, RuleGroup } from "./types";
 
 function extractSlug(dataset: string): string {
   const filename = dataset.split("/").pop() ?? "";
@@ -48,4 +48,58 @@ export function getCategoryMeta(
 export function getAllSlugs(): string[] {
   const categories = getCategories("en");
   return categories.map((c) => c.slug);
+}
+
+function slugify(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9\u0400-\u04ff]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+export type RuleIndex = Map<string, { slug: string; id: string }>;
+
+export function getRuleIndex(locale: Locale): RuleIndex {
+  const index: RuleIndex = new Map();
+  const categories = getCategories(locale);
+
+  for (const cat of categories) {
+    const data = getCategoryData(locale, cat.slug);
+    if (!data) continue;
+    for (const group of data) {
+      for (const rule of group.rules) {
+        const key = rule.title.toLowerCase();
+        if (!index.has(key)) {
+          index.set(key, { slug: cat.slug, id: slugify(rule.title) });
+        }
+      }
+    }
+  }
+
+  return index;
+}
+
+export function linkifyDescriptions(
+  data: RuleGroup[],
+  ruleIndex: RuleIndex,
+  currentSlug: string
+): RuleGroup[] {
+  return data.map((group) => ({
+    ...group,
+    rules: group.rules.map((rule) => ({
+      ...rule,
+      description: rule.description.replace(
+        /<i>([^<]+)<\/i>/g,
+        (_match, text: string) => {
+          const entry = ruleIndex.get(text.toLowerCase());
+          if (!entry) return `<i>${text}</i>`;
+          const href =
+            entry.slug === currentSlug
+              ? `#${entry.id}`
+              : `/${entry.slug}#${entry.id}`;
+          return `<a href="${href}">${text}</a>`;
+        }
+      ),
+    })),
+  }));
 }

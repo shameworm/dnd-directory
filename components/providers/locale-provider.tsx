@@ -6,20 +6,24 @@ import {
   useState,
   useCallback,
   useTransition,
+  useMemo,
 } from "react";
 import { useRouter } from "next/navigation";
 import type { Locale } from "@/lib/types";
+import { getUIStrings, type UIStrings } from "@/lib/i18n";
 
 interface LocaleContextValue {
   locale: Locale;
   setLocale: (locale: Locale) => void;
   isPending: boolean;
+  t: UIStrings;
 }
 
 const LocaleContext = createContext<LocaleContextValue>({
   locale: "en",
   setLocale: () => {},
   isPending: false,
+  t: getUIStrings("en"),
 });
 
 export function useLocale() {
@@ -37,6 +41,8 @@ export function LocaleProvider({
   const [isPending, startTransition] = useTransition();
   const router = useRouter();
 
+  const t = useMemo(() => getUIStrings(locale), [locale]);
+
   const setLocale = useCallback(
     (newLocale: Locale) => {
       setLocaleState(newLocale);
@@ -49,7 +55,7 @@ export function LocaleProvider({
   );
 
   return (
-    <LocaleContext.Provider value={{ locale, setLocale, isPending }}>
+    <LocaleContext.Provider value={{ locale, setLocale, isPending, t }}>
       {children}
     </LocaleContext.Provider>
   );

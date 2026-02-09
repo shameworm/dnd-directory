@@ -26,7 +26,6 @@ export function useTheme() {
 
 const THEME_CLASSES: Record<ThemeVariant, string> = {
   codex: "theme-codex",
-  scroll: "theme-scroll",
   dragon: "theme-dragon",
 };
 

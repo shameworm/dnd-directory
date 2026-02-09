@@ -7,19 +7,22 @@ import {
 } from "@/components/ui/accordion";
 import { Badge } from "@/components/ui/badge";
 import { GameIcon } from "@/components/game-icon";
+import { useLocale } from "@/components/providers/locale-provider";
 import type { Rule } from "@/lib/types";
 
 interface RuleEntryProps {
   rule: Rule;
   index: number;
+  ruleId?: string;
   accentColor?: string;
 }
 
-export function RuleEntry({ rule, index, accentColor }: RuleEntryProps) {
+export function RuleEntry({ rule, index, ruleId, accentColor }: RuleEntryProps) {
   const value = `rule-${index}`;
+  const { t } = useLocale();
 
   return (
-    <AccordionItem value={value} className="border-b border-border/50">
+    <AccordionItem value={value} id={ruleId} className="border-b border-border/50 scroll-mt-20">
       <AccordionTrigger className="hover:no-underline py-3 px-1 gap-3">
         <div className="flex items-center gap-3 text-left min-w-0">
           <GameIcon
@@ -53,7 +56,7 @@ export function RuleEntry({ rule, index, accentColor }: RuleEntryProps) {
           />
         ) : (
           <p className="text-muted-foreground text-sm italic pl-[34px]">
-            See class or race description for details.
+            {t.noDescription}
           </p>
         )}
       </AccordionContent>

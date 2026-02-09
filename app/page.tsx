@@ -1,21 +1,24 @@
 import { Header } from "@/components/header";
 import { HomeContent } from "@/components/home-content";
 import { getLocale } from "@/lib/get-locale";
-import { getCategories, getCategoryData } from "@/lib/data";
+import { getCategories, getCategoryData, getRuleIndex, linkifyDescriptions } from "@/lib/data";
+import { getUIStrings } from "@/lib/i18n";
 import { GiRollingDices } from "react-icons/gi";
 import type { RuleGroup } from "@/lib/types";
 
 export default async function HomePage() {
   const locale = await getLocale();
   const categories = getCategories(locale);
+  const t = getUIStrings(locale);
 
+  const ruleIndex = getRuleIndex(locale);
   const categoryDataMap: Record<string, RuleGroup[]> = {};
   const previewIconsMap: Record<string, string[]> = {};
 
   for (const cat of categories) {
     const data = getCategoryData(locale, cat.slug);
     if (data) {
-      categoryDataMap[cat.slug] = data;
+      categoryDataMap[cat.slug] = linkifyDescriptions(data, ruleIndex, cat.slug);
       const icons: string[] = [];
       for (const group of data) {
         for (const rule of group.rules) {
@@ -36,11 +39,10 @@ export default async function HomePage() {
         <div className="text-center mb-10">
           <GiRollingDices className="size-16 text-primary mx-auto mb-4 opacity-80" />
           <h1 className="font-display text-3xl sm:text-4xl font-bold tracking-tight">
-            D&D Directory
+            {t.appTitle}
           </h1>
           <p className="text-muted-foreground mt-2 text-lg max-w-lg mx-auto">
-            Quick reference for D&D 5th Edition rules, actions, conditions, and
-            more
+            {t.appSubtitle}
           </p>
         </div>
 

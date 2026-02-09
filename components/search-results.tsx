@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Accordion } from "@/components/ui/accordion";
 import { RuleEntry } from "@/components/rule-entry";
 import { getCategoryColors } from "@/lib/colors";
+import { useLocale } from "@/components/providers/locale-provider";
 import type { SearchResult } from "@/hooks/use-search";
 
 interface SearchResultsProps {
@@ -11,11 +12,13 @@ interface SearchResultsProps {
 }
 
 export function SearchResults({ results }: SearchResultsProps) {
+  const { t } = useLocale();
+
   if (results.length === 0) {
     return (
       <div className="text-center py-12 text-muted-foreground">
-        <p className="text-lg">No results found</p>
-        <p className="text-sm mt-1">Try a different search term</p>
+        <p className="text-lg">{t.noResults}</p>
+        <p className="text-sm mt-1">{t.noResultsHint}</p>
       </div>
     );
   }
@@ -59,7 +62,7 @@ export function SearchResults({ results }: SearchResultsProps) {
                 href={`/${category.slug}`}
                 className="text-xs text-primary hover:underline mt-2 inline-block"
               >
-                View all {rules.length} results in {category.title}
+                {t.viewAll(rules.length, category.title)}
               </Link>
             )}
           </div>
